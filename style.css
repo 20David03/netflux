@@ -195,3 +195,40 @@ nav>img{
 }
 
 
+.footer{
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+.footer>h1{
+    font-size: 18px;
+    font-weight:100; 
+    margin-top:100px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.foot{
+    display: flex;
+    line-height: 30px;
+}
+
+.ques{
+    display: flex;
+    flex-direction:column ;
+}
+.ques + .ques{
+    padding-left: 60px;
+}
+
+.ques>a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+
+.ques a:hover{
+    text-decoration: grey;
+}
+
+
