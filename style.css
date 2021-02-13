@@ -70,13 +70,14 @@ nav>img{
 
 .price{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 465px 325px;
 }
 
 .price>input{
     height: 60px;
     outline: none;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 .pricebttn{
@@ -104,12 +105,6 @@ nav>img{
     margin-top: 20px;
 }
 
-.hr{
-    background-color: rgb(58, 58, 58);
-    width: 100%;
-    height: 8px;
-    margin-top: 150px;
-}
 
 
 .part1{
@@ -225,3 +220,10 @@ nav>img{
 }
 
 
+@media screen and (max-width:840px){
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+    }
+}
